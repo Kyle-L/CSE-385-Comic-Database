@@ -1,20 +1,11 @@
-# Comic Book Database
+![Simple Comic Database](assets/header.png)
 
-- [Overview](#overview)
-- [Entity Relationship Diagram](#erd)
-- [Stored Procedures](#stored-proc)
-- [License](#license)
-
-<a name="overview"/></a>
 ## Overview
-This is the repository for the development of a comic book database project using MSSQL 2019 for ![CSE 385 Database Systems](https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-385/index.html).
-The ![create_comic.sql](create_comic.sql) file contains the query opertations to create the tables, views, stored procedures, and insert mock data in the database.
+This is the repository for the development of a comic book database project using MSSQL 2019 for [CSE 385 Database Systems](https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-385/index.html). There are three main components to the project: [create_comics.sql](create_comics.sql), [populate_comics.sql](populate_comics.sql), and [test_comics.sql](test_comics.sql). create_comics.sql creates the tables and stored procedures, populate_comics.sql populates the database with data, and test_comics.sql tests the database accordingly.
 
-<a name="erd"/></a>
 ## Entity Relationship Diagram
-![Entity Relationship Diagram](ERD.png)
+![Entity Relationship Diagram](assets/ERD.png)
 
-<a name="stored-proc"/></a>
 ## Stored Procedures
 - spSave_Error
   - Saves an error to the database.
